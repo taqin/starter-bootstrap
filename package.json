@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap HTML template starter kit",
+  "main": "index.html",
+  "author": "Taqin",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts": {
+    "start": "yarn browser-sync start --server \"public\" --files \"public\""
+  }
+}
